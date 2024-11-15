@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zevaher Jewelry Collection</title>
+<link rel="stylesheet" href="style.min.css">
+<style>
+/* Enhanced Background */
+body {
+  background: linear-gradient(135deg, #f0f4f8, #e2e8f0);
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  background-color: #d9ddbb;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
+}
+
+header {
+  border-bottom: 1px solid #ddd;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* 3D effect */
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.nav-links a:hover {
+  transform: translateY(-2px); /* 3D hover effect */
+  color: #ff6b6b;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 10px;
+  font-size: 1.2em;
+}
+
+/* Main Banner Section */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #f3f4ec;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* 3D effect */
+  border-radius: 15px;
+}
+
+.banner-text h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Text shadow for depth */
+}
+
+.banner-text p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.banner-text button {
+  padding: 15px 30px;
+  background-color: #e0e5cc;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  font-size: 1.1em;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* button 3D shadow */
+  transition: transform 0.3s ease;
+}
+
+.banner-text button:hover {
+  transform: translateY(-3px); /* 3D hover effect */
+  background-color: #d1e4a4;
+}
+
+.banner-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* 3D effect on image */
+}
+
+/* Product Gallery Section */
+.product-gallery {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  gap: 20px;
+  background-color: #f3f4ec;
+}
+
+.product {
+  position: relative;
+  width: 220px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.product:hover {
+  transform: translateY(-5px); /* 3D hover effect for product */
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* 3D effect on product image */
+}
+
+.product .heart-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5em;
+  color: #d9d9d9;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.product .heart-icon:hover {
+  color: #ff6b6b;
+}
+
+/* Footer Section */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow on footer */
+}
+</style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<header>
+  <div class="top-bar">
+    <p>Secure shopping experience designed to bring Zevaher's elegance to you.</p>
+  </div>
+  <nav>
+    <div class="logo">ZEVAHER</div>
+    <ul class="nav-links">
+      <li><a href="#">Jewelry</a></li>
+      <li><a href="#">Bridal</a></li>
+      <li><a href="#">House</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+    <div class="nav-icons">
+      <a href="#">Book an Appointment</a>
+      <span class="search-icon">&#128269;</span>
+      <span class="heart-icon">&#9825;</span>
+      <span class="user-icon">&#128100;</span>
+      <span class="cart-icon">&#128722;</span>
+    </div>
+  </nav>
+</header>
+
+<!-- Main Banner Section -->
+<section class="banner">
+  <div class="banner-text">
+    <h1>The Oxford Tribute Collection</h1>
+    <p>The Zevaher Created Diamond jewelry collection radiates otherworldly wonder, featuring beautiful lab-grown diamonds.</p>
+    <button>Discover</button>
+  </div>
+  <div class="banner-image">
+    <img src="https://img.freepik.com/premium-photo/gold-woman-skin-beauty-fashion-model-girl-with-golden-make-up-hair-jewellery-black-background-gold-earrings-ring-necklace-metallic-glance-fashion-art-portrait-hairstyle-make-up_35691-20419.jpg" alt="Model with jewelry" loading="lazy">
+  </div>
+</section>
+
+<!-- Product Gallery Section -->
+<section class="product-gallery">
+  <div class="product">
+    <img src="https://www.candere.com/media/jewellery/images/C004016__1.jpeg" alt="Product 1" loading="lazy">
+    <span class="heart-icon">&#9825;</span>
+  </div>
+  <div class="product">
+    <img src="https://www.k4fashion.com/wp-content/uploads/2019/12/designer-gold-earrings-7.jpg" alt="Product 2" loading="lazy">
+    <span class="heart-icon">&#9825;</span>
+  </div>
+  <div class="product">
+    <img src="https://www.thediamondauthority.org/wp-content/uploads/2011/09/blue-sapphire-diamond-ring-1024x1024.jpg" alt="Product 3" loading="lazy">
+    <span class="heart-icon">&#9825;</span>
+  </div>
+  <div class="product">
+    <img src="https://www.jewelove.in/cdn/shop/products/jewelove-designer-platinum-rose-gold-with-diamond-chain-for-men-jl-pt-ch-1112-37685055127793_1280x.jpg?v=1680670086" alt="Product 4" loading="lazy">
+    <span class="heart-icon">&#9825;</span>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer>
+  <p>&copy; 2024 Zevaher Jewelry. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
